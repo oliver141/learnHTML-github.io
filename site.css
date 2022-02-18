@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #main-container {
+    border: 3px solid #800000;
+    background-color: #ff6347;
+    margin: auto;
+    max-width: 900px;
+  }
+
+  #title-bar {
+    border-bottom: 2px solid #800000;
+    padding-left: 12px;
+  }
+
+  #carrotimage {
+    background-image: url("herocarrot.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 400px;
+    padding: 10px 15px;
+
+  }
+
+  .three-column {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: rgba(255, 99, 71, 0.6);
+    padding: 0px 8px;
+  }
+
+  div.three-column p {
+    font-weight: bold;
+    color: #000;
+  }
+
+  .navbar {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+
+  }
+   .one-column {
+    background-color: rgba(255, 99, 71, 0.6);
+   }
