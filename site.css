@@ -2,6 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  section {
+    border: solid #000;
+    margin: 10px 0px;
+    padding: .5rem 12px;
+  }
+
   #main-container {
     border: 3px solid #800000;
     background-color: #ff6347;
@@ -14,8 +20,14 @@ body {
     padding-left: 12px;
   }
 
+  #main-content {
+    background-color: white;
+    min-height: 100px;
+    padding: 10px 10px;
+  }
+
   #carrotimage {
-    background-image: url("herocarrot.jpg");
+    background-image: url("images/herocarrot.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     min-height: 400px;
